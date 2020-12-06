@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+    width: 1400px;
+}
+
+.heading ul {
+    list-style: none;
+}
+
+.heading li {
+    display: inline-block;
+}
+
+.part-Mens{
+    width: 1000px;
+    text-align: center;
+}
+.part-Mens ul {
+    list-style: none;
+}
+
+.part-Mens ul li {
+    display: inline-block;
+}
+.contentWrapper {
+    display: block;
+    border: black;
+    border-radius: 5px;
+    margin: 0 auto;
+    /*height: 300px;
+    width: 200px;*/
+    max-width: 1000px;
+    padding: 0 1em;
+}
+.sideBar{
+    display: block;
+    float: right;
+    width: 200px;
+
+}
+.sizeBoxes{
+    width: 100px;
+    list-style: none;
+}
+#shoeDisplay {
+    /**/
+    height: 500px;
+    width: 700px;
+    display: inline-block;
+}
+.shoeCard {
+    display: inline-block;
+    width: 230px;
+    height: 250px;
+    border-color: black;
+    border-width: 5px;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+}
