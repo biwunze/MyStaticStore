@@ -2,6 +2,9 @@ body{
     background-color: aliceblue;
     width: 1400px;
 }
+.heading{
+    border: solid black 4px;
+}
 
 .heading ul {
     list-style: none;
@@ -11,24 +14,34 @@ body{
     display: inline-block;
 }
 
-.part-Mens{
-    width: 1000px;
+.part-Mens {
+    width: 1032px;
     text-align: center;
+    background-color: #7373FF;
+    border: black solid 1px;
+    margin-left: 13%;
 }
+
 .part-Mens ul {
     list-style: none;
 }
-
+h5{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
 .part-Mens ul li {
     display: inline-block;
 }
+
 .contentWrapper {
     display: block;
-    border: black;
+    border: black 3px solid;
     border-radius: 5px;
     margin: 0 auto;
-    /*height: 300px;
-    width: 200px;*/
+    height: 763px;
+    /*width: 200px;*/
     max-width: 1000px;
     padding: 0 1em;
 }
@@ -36,24 +49,29 @@ body{
     display: block;
     float: right;
     width: 200px;
-
+    border: black 2px solid;
 }
 .sizeBoxes{
     width: 100px;
     list-style: none;
+    
 }
 #shoeDisplay {
     /**/
     height: 500px;
     width: 700px;
     display: inline-block;
+    
 }
 .shoeCard {
     display: inline-block;
-    width: 230px;
+    width: 225px;
     height: 250px;
     border-color: black;
     border-width: 5px;
+    border: black .5px solid;
+    background-color: white;
+    
 }
 
 footer li {
