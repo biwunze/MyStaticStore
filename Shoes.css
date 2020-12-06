@@ -4,16 +4,36 @@ body{
 }
 .heading{
     border: solid black 4px;
+    background-color: #28538F;
 }
-
+h1 {
+    text-align: center;
+    color: deepskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 {
+    text-align: center;
+    color: deepskyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .heading ul {
     list-style: none;
-}
+    text-align: center;
 
+}
+#sign-in ul{
+    text-align: right;
+    margin: 5px;
+}
 .heading li {
     display: inline-block;
+    background-color: white;
 }
-
+#areas ul li{
+    margin: 2px;
+    padding: 2px;
+    border: 3px solid silver;
+}
 .part-Mens {
     width: 1032px;
     text-align: center;
@@ -41,27 +61,25 @@ p{
     border-radius: 5px;
     margin: 0 auto;
     height: 763px;
-    /*width: 200px;*/
     max-width: 1000px;
     padding: 0 1em;
+    background-color: #BB8DF0;
 }
 .sideBar{
     display: block;
     float: right;
     width: 200px;
     border: black 2px solid;
+    background-color: white;
 }
 .sizeBoxes{
     width: 100px;
     list-style: none;
-    
 }
 #shoeDisplay {
-    /**/
     height: 500px;
     width: 700px;
     display: inline-block;
-    
 }
 .shoeCard {
     display: inline-block;
@@ -71,9 +89,10 @@ p{
     border-width: 5px;
     border: black .5px solid;
     background-color: white;
-    
 }
-
+footer{
+    text-align: center;
+}
 footer li {
     list-style: none;
     display: inline-block;
